@@ -13,9 +13,12 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+<<<<<<< HEAD
 
 model User {
   id    String  @id @default(cuid())
   email String  @unique
   name  String?
 }
+=======
+>>>>>>> 7b0183a9beda71c907a63c44536668aac4630574
